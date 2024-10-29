@@ -19,4 +19,3 @@ class Solution(object):
             return currentSum + root.val == targetSum
 
         return self.hasPathSum(root.left, targetSum, currentSum + root.val) or self.hasPathSum(root.right, targetSum, currentSum + root.val)
-

@@ -11,7 +11,7 @@ class TreeNode(object):
 class Solution(object):
 
     # Solution 1
-    # O(n) time / O(n) space
+    # O(n) time / O(log(n)) space
     def sortedArrayToBST(self, nums):
         if not nums:
             return

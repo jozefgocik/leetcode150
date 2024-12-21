@@ -10,7 +10,7 @@ class ListNode(object):
 class Solution(object):
 
     # Solution 1
-    # O(n * log(k)) time / O(1) space
+    # O(n * log(k)) time / O(n) space
     def mergeKLists(self, lists):
         if not lists or len(lists) == 0:
             return None
